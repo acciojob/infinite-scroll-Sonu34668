@@ -6,7 +6,7 @@ const list = document.querySelector("#infi-list");
 // Add 10 list items by default
 for (let i = 1; i <= 10; i++) {
   const li = document.createElement("li");
-  li.textContent = `List item ${i}`;
+  li.textContent = ` Item ${i}`;
   list.appendChild(li);
 }
 
